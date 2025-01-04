@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#participants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.participant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.participant img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.result {
+    margin-top: 10px;
+    position: relative;
+}
+
+.gauge {
+    width: 0;
+    height: 20px;
+    background-color: green;
+}
+
+.percentage {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+}
